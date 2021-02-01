@@ -1,11 +1,20 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
+import About from './Sections/About';
+import Education from './Sections/Education';
+import Experience from './Sections/Experience';
+import Projects from './Sections/Projects';
+import Skills from './Sections/Skills';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hello world</h1>
+      <About />
+      <Experience />
+      <Education />
+      <Skills />
+      <Projects />
     </div>
   );
 }

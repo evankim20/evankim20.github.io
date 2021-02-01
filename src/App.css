@@ -5,20 +5,150 @@
   font-family: 'Encode Sans', sans-serif;
 }
 
+.subheading {
+  color: #7c7c7d;
+}
+
+.content {
+  color: #7c7c7d;
+}
+
+/* NAVBAR */
 #nav {
   width: 100%;
-  float: left;
-  margin: 0 0 3em 0;
+  height: 50px;
+  margin: 0;
   padding: 0;
-  list-style: none;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc; 
-  border-top: 1px solid #ccc; }
+  position: fixed;
+  background-color: #434344;
+}
 
-#nav li {
-      display: block;
-      padding: 8px 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #069;
-      border-right: 1px solid #ccc; }
+#nav #logo {
+  height: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  display: inline-block;
+  color:  #f4f4f5;
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  font-weight: bold;
+  text-align: center;
+  /* float: right; */
+}
+
+#nav a {
+  margin: 4px;
+  display: block;
+  color: #f4f4f5;
+}
+
+button {
+  font-size: 32px;
+  margin-right: 8px;
+  margin-top: 8px;
+  color:  #f4f4f5;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  float: right;
+}
+
+.show-nav {
+  margin-top: -10px;
+  height: 120px;
+  width: 100%;
+  background-color: #434344;
+  transition: 1s;
+}
+
+.hide-nav {
+  height: 0;
+  transition: 1s;
+  animation-direction: alternate;
+}
+
+/* Media screen size */
+@media screen and (min-width: 768px) {
+  button {
+      display: none;
+  }
+
+  .links {
+      height: 100%;
+      float: right;
+      display: inline-block;
+  }
+
+  .link-wrapper {
+    height: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    display: inline-block;
+  }
+}
+
+
+/* SECTION CSS */
+.about-section {
+  padding-top: 60px;
+  height: 80vh;
+  background-color: #212122;
+  /* color:#007bed; MAIN BLUE*/
+  /* #7c7c7d secondary fond color */
+  /* color: #434344; SECONDARY GREY*/
+  color: #f4f4f5;
+  text-align: center;
+}
+
+.experience-section {
+  height: 80vh;
+  background-color: coral;
+}
+
+.education-section {
+  height: 80vh;
+  background-color: burlywood;
+}
+
+.skills-section {
+  height: 80vh;
+  background-color: peru;
+}
+
+.projects-section {
+  height: 80vh;
+  background-color: rebeccapurple;
+}
+
+/* ABOUT PAGE */
+.nametag {
+  height: 100%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 10vh; */
+}
+
+#headshot {
+  border-radius: 50%;
+  border: 5px solid #434344;
+  width: 300px;
+  margin-right: 32px;
+}
+
+#photo {
+  max-width: 100%;
+  /* height: 100%; */
+}
+
+#bio {
+  flex-basis: 35%;
+  text-align: left;
+}

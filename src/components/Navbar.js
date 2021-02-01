@@ -1,16 +1,75 @@
 import React from 'react'
+import { FaAlignRight } from 'react-icons/fa';
+import { Link } from 'react-scroll'
+import { useState } from 'react'
 
 const Navbar = () => {
+    const [toggle, setToggle] = useState(false)
+
+    const Toggle = () => {
+        setToggle(!toggle)
+    }
+
     return (
-        <div>
-            <ul id="nav">
-                <li>evan kim</li>
-                <li>about</li>
-                <li>experience</li>
-                <li>education</li>
-                <li>skills</li>
-                <li>projects</li>
-            </ul>
+        <div id="nav">
+            <div id="logo">evan kim</div>
+            <button onClick={Toggle}>
+                        <FaAlignRight />
+            </button>
+            <div className={toggle ? "links show-nav" : "links hide-nav"}>
+                <div className="link-wrapper">
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        onClick={toggle ? Toggle : () => {}}
+                    > about </Link>
+                </div>
+                <div className="link-wrapper">
+                    <Link
+                        activeClass="active"
+                        to="experience"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        onClick={toggle ? Toggle : () => {}}
+                    > experience </Link>
+                </div>
+                <div className="link-wrapper">
+                    <Link
+                        activeClass="active"
+                        to="education"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        onClick={toggle ? Toggle : () => {}}
+                    > education </Link>
+                </div>
+                <div className="link-wrapper">
+                    <Link
+                        activeClass="active"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        onClick={toggle ? Toggle : () => {}}
+                    > skills </Link>
+                </div>                
+                <div className="link-wrapper">
+                    <Link
+                        activeClass="active"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        onClick={toggle ? Toggle : () => {}}
+                    > projects </Link>
+                </div>
+            </div>
         </div>
     )
 }
