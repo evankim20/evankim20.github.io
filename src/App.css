@@ -29,6 +29,7 @@
   padding: 8px;
   display: inline-block;
   color:  #f4f4f5;
+  cursor: pointer;
 }
 
 .links {
@@ -44,6 +45,7 @@
   margin: 4px;
   display: block;
   color: #f4f4f5;
+  cursor: pointer;
 }
 
 button {
@@ -72,8 +74,12 @@ button {
   animation-direction: alternate;
 }
 
-/* Media screen size */
-@media screen and (min-width: 768px) {
+.link-wrapper > .active {
+  transition: color 0.4s; /* For modern browsers */
+  color:#7c7c7d !important; 
+}
+
+@media screen and (min-width: 750px) {
   button {
       display: none;
   }
@@ -90,6 +96,7 @@ button {
     margin-top: 8px;
     display: inline-block;
   }
+
 }
 
 
@@ -99,10 +106,11 @@ button {
   height: 80vh;
   background-color: #212122;
   /* color:#007bed; MAIN BLUE*/
-  /* #7c7c7d secondary fond color */
+  /* #7c7c7d secondary font color */
   /* color: #434344; SECONDARY GREY*/
   color: #f4f4f5;
   text-align: center;
+  overflow:hidden;
 }
 
 .experience-section {
@@ -128,27 +136,67 @@ button {
 /* ABOUT PAGE */
 .nametag {
   height: 100%;
-  width: 75%;
+  width: 85%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 10vh; */
+  flex-wrap: wrap;
 }
 
 #headshot {
   border-radius: 50%;
   border: 5px solid #434344;
-  width: 300px;
-  margin-right: 32px;
+  width: 150px;
 }
 
 #photo {
-  max-width: 100%;
-  /* height: 100%; */
+  display: none;
+  /* margin-bottom: -10vh; */
 }
 
 #bio {
-  flex-basis: 35%;
+  flex-basis: 100%;
+  flex: 1;
   text-align: left;
+}
+
+.website-link {
+  color: white;
+  font-size: x-large;
+  margin-right: 8px;
+}
+
+.website-link:hover {
+  color: white;
+  opacity: 50%;
+}
+
+@media screen and (min-width: 850px) {
+  .nametag {
+    width: 55%;
+    flex-wrap: nowrap;
+  }
+
+  #headshot {
+    border-radius: 50%;
+    border: 5px solid #434344;
+    width: 300px;
+    margin-right: 32px;
+  }
+  
+  #photo {
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 0;
+    height: auto;
+  }
+  
+  #bio {
+    flex-basis: 85%;
+    width: 80px;
+    flex: auto;
+    text-align: left;
+  }
 }

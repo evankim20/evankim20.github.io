@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaAlignRight } from 'react-icons/fa';
-import { Link } from 'react-scroll'
+import { HiMenu } from 'react-icons/hi';
+import { Link, animateScroll as scroll } from 'react-scroll'
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -10,11 +10,15 @@ const Navbar = () => {
         setToggle(!toggle)
     }
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <div id="nav">
-            <div id="logo">evan kim</div>
+            <div id="logo" onClick={scrollToTop}>evan kim</div>
             <button onClick={Toggle}>
-                        <FaAlignRight />
+                        <HiMenu />
             </button>
             <div className={toggle ? "links show-nav" : "links hide-nav"}>
                 <div className="link-wrapper">
