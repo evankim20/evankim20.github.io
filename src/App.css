@@ -5,6 +5,10 @@
   font-family: 'Encode Sans', sans-serif;
 }
 
+body {
+  background-color: #212122;
+}
+
 .subheading {
   color: #7c7c7d;
 }
@@ -20,7 +24,7 @@
   margin: 0;
   padding: 0;
   position: fixed;
-  background-color: #434344;
+  background-color: #434344 !important;
 }
 
 #nav #logo {
@@ -104,7 +108,6 @@ button {
 .about-section {
   padding-top: 60px;
   height: 80vh;
-  background-color: #212122;
   /* color:#007bed; MAIN BLUE*/
   /* #7c7c7d secondary font color */
   /* color: #434344; SECONDARY GREY*/
@@ -119,8 +122,8 @@ button {
 }
 
 .education-section {
-  height: 80vh;
-  background-color: burlywood;
+  /* height: 80vh; */
+  text-align: center;
 }
 
 .skills-section {
@@ -131,6 +134,17 @@ button {
 .projects-section {
   height: 80vh;
   background-color: rebeccapurple;
+}
+
+.section-heading {
+  color: #f4f4f5;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .section-heading {
+    text-align: left;
+  }
 }
 
 /* ABOUT PAGE */
@@ -199,4 +213,63 @@ button {
     flex: auto;
     text-align: left;
   }
+}
+
+/* EDUCATION */
+#education-wrapper {
+  display: block;
+  width: 200px;
+  height: 100%;
+  margin: auto;
+}
+
+
+.list-item {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.title-label {
+  float: left;
+  color:  #f4f4f5;
+}
+
+.year-label {
+  float: right;
+  color:  #f4f4f5;
+}
+
+.position-label {
+  float: left;
+  color:  #f4f4f5;
+}
+
+.location-label {
+  float: right;
+  color:  #f4f4f5;
+}
+
+.gpa-label {
+  float: right;
+  color:  #f4f4f5;
+}
+
+.description-label {
+  float: left;
+  color:  #f4f4f5;
+}
+
+@media screen and (min-width: 750px) {
+  #education-wrapper {
+    width: 500px;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+  #education-wrapper {
+    width: 600px;
+  }
+
 }
