@@ -1,7 +1,7 @@
 import React from 'react'
 import ListItem from '../Components/ListItem'
 
-import mit from "../Images/mit.png"
+import mit from "../Images/logos/mit.png"
 
 
 function Education() {

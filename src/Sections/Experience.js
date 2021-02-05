@@ -2,18 +2,14 @@ import React from 'react'
 import ListItem from '../Components/ListItem'
 import ListSkills from '../Components/ListSkills'
 
-import fb from "../Images/fb.webp"
-import mit from "../Images/mit.png"
-import csail from "../Images/csail.jpg"
-import apple from "../Images/apple.png"
-import exxonmobil from "../Images/exxonmobil.png"
-import fixt from "../Images/fixt.jpg"
-import lowell from "../Images/lowel.jpeg"
-import inspirit from "../Images/inspirit.png"
-
-
-
-
+import fb from "../Images/logos/fb.webp"
+import mit from "../Images/logos/mit.png"
+import csail from "../Images/logos/csail.jpg"
+import apple from "../Images/logos/apple.png"
+import exxonmobil from "../Images/logos/exxonmobil.png"
+import fixt from "../Images/logos/fixt.jpg"
+import lowell from "../Images/logos/lowel.jpeg"
+import inspirit from "../Images/logos/inspirit.png"
 
 function Experience() {
     return (
