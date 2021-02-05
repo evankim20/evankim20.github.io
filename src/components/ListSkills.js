@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ListSkills() {
+function ListSkills( {skills} ) {
     return (
         <div>
-            <div className="skill-pill">HTML</div>
-            <div className="skill-pill">CSS</div>
-            <div className="skill-pill">Python</div>
+            {skills.map((value, index) => {
+                return <div className="skill-pill" key={value}>{value}</div>
+            })}
         </div>
     )
 }

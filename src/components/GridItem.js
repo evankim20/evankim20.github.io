@@ -3,13 +3,12 @@ import React from 'react'
 function GridItem( { title, description, github, image, link_text }) {
     return (
         <div className="item-wrapper">
-            <img src={image} style={{width: "100%"}} />
+            <img src={image} alt={title} style={{width: "100%"}} />
             <div className="middle">
                 <div className="text">
                     <div className="project-title">{title}</div>
                     <div className="project-desc">{description}</div>
                     <a href={github} className="project-github">{link_text}</a>
-                    {/* <div className="project-github">{github}</div> */}
                 </div>
             </div>
         </div>

@@ -60,6 +60,7 @@ const Navbar = () => {
                         to="skills"
                         spy={true}
                         smooth={true}
+                        offset={-50}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > skills </Link>
@@ -70,6 +71,7 @@ const Navbar = () => {
                         to="projects"
                         spy={true}
                         smooth={true}
+                        offset={-50}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > projects </Link>
