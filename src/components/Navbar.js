@@ -27,7 +27,7 @@ const Navbar = () => {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-55}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > about </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         to="experience"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-55}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > experience </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         to="education"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-55}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > education </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                         to="skills"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-55}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > skills </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-55}
                         duration={500}
                         onClick={toggle ? Toggle : () => {}}
                     > projects </Link>

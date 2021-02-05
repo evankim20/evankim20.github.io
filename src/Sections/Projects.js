@@ -14,12 +14,12 @@ function Projects() {
         <div className="projects-section" id="projects">
             <div className="container" id="section-wrapper">
                 <h1 className="section-heading">Projects</h1>
-                <hr></hr>
+                <hr className="divider" />
             </div>
             <div className="container" id="projects-section-wrapper">
                 <div className="projects-container">
                     <div className="column">
-                        <GridItem title="Water Polo Analytics" description="Conducted the data analytics for Champions League Water Polo Tournament to evaluate successful plays and wrote a paper sharing results" github="https://github.com/kevinshen1101/Water-Polo-Analytics" link_text="Github and Paper" image={wp}/>
+                        <GridItem title="Water Polo Analytics" description="conducted the data analytics for Champions League Water Polo Tournament to evaluate successful plays and wrote a paper sharing results" github="https://github.com/kevinshen1101/Water-Polo-Analytics" link_text="Github and Paper" image={wp}/>
                         <GridItem title="yt-learn" description="HackDuke2020 Hackathon Project: built frontend for an application that provides a centralized platform to rate Youtube tutorials" github="https://github.com/evankim20/yt-learn" link_text="Github" image={hackduke}/>
                         <GridItem title="One Song a Day" description="built a Go application that queries the Spotify API and sends a song recommendation to my inbox every morning" github="https://github.com/evankim20/one-song-a-day" link_text="Github" image={onesong}/>
                     </div>

@@ -23,7 +23,7 @@ function Skills() {
         <div className="skills-section" id="skills">
             <div id="section-wrapper">
                 <h1 className="section-heading">Skills</h1>
-                <hr />
+                <hr className="divider"/>
             </div>
             <div className="container" id="projects-section-wrapper">
                 <div className="grid">

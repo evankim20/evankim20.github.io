@@ -8,6 +8,7 @@ function GridItem( { title, description, github, image, link_text }) {
                 <div className="text">
                     <div className="project-title">{title}</div>
                     <div className="project-desc">{description}</div>
+                    <br />
                     <a href={github} className="project-github">{link_text}</a>
                 </div>
             </div>
