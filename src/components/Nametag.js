@@ -17,9 +17,7 @@ function Nametag() {
             <div id="bio">
                 <h2 className="subheading">Hello, my name is</h2>
                 <h1 id="name-nametag">Evan Kim</h1>
-                <div className="content">I’m a fourth year student at MIT majoring in computer science.  I’m an aspiring software engineer that 
-                                        enjoys building applications.  I am also the captain of the men's varsity water polo team at MIT and I enjoy staying active, 
-                                        playing fantasy football, and learning about almost anything!
+                <div className="content">I’m a fourth year student at MIT majoring in computer science and an aspiring software engineer.  I also have experience and am interested in machine learning and the intersection of healthcare.  I'm currently the captain of the men's varsity water polo team at MIT and I enjoy staying active, playing fantasy football, and reading.
                 </div>
                 <a href={"mailto:" + user + "@" + domain} className="website-link">
                     <HiMail />

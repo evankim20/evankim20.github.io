@@ -112,7 +112,7 @@ button {
 }
 
 .experience-section {
-  margin-bottom: 25px;
+  margin-bottom: 0px; /* Account for short tutor description */
 }
 
 .education-section {
