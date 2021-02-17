@@ -26,22 +26,50 @@ function Skills() {
                 <hr className="divider"/>
             </div>
             <div className="container" id="projects-section-wrapper">
-                <div className="grid">
-                    <div><img src={python} alt="python" /><div className="skill-caption">Python</div></div>
-                    <div><img src={java} alt="java" /><div className="skill-caption">Java</div></div>
-                    <div><img src={go} alt="go" /><div className="skill-caption">Go</div></div>
-                    <div><img src={html} alt="html" /><div className="skill-caption">HTML</div></div>
-                    <div><img src={css} alt="css" /><div className="skill-caption">CSS</div></div>
-                    <div><img src={javascript} alt="js" /><div className="skill-caption">JavaScript</div></div>
-                    <div><img src={react} alt="react" /><div className="skill-caption">React</div></div>
-                    <div><img src={pandas} alt="pandas" /><div className="skill-caption">pandas</div></div>
-                    <div><img src={numpy} alt="numpy" /><div className="skill-caption">NumPy</div></div>
-                    <div><img src={scikitlearn} alt="sklearn" /><div className="skill-caption">scikit-learn</div></div>
-                    <div><img src={pytorch} alt="pytorch" /><div className="skill-caption">PyTorch</div></div>
-                    <div><img src={postgres} alt="postgres" /><div className="skill-caption">PostgreSQL</div></div>
-                    <div><img src={docker} alt="docker" /><div className="skill-caption">Docker</div></div>
-                    <div><img src={git} alt="git" /><div className="skill-caption">Git</div></div>
-                    <div><img src={bash} alt="bash" /><div className="skill-caption">Bash</div></div>
+                <div className="box">
+                    <img src={python} alt="python" className="skill-logo"/> <div className="skill-caption">Python</div>
+                </div>
+                <div className="box">
+                    <img src={java} alt="java" className="skill-logo"/><div className="skill-caption">Java</div>
+                </div>
+                <div className="box">
+                    <img src={go} alt="go" className="skill-logo"/><div className="skill-caption">Go</div>
+                </div>
+                <div className="box">
+                    <img src={html} alt="html" className="skill-logo"/><div className="skill-caption">HTML</div>
+                </div>
+                <div className="box">
+                    <img src={css} alt="css" className="skill-logo"/><div className="skill-caption">CSS</div>
+                </div>
+                <div className="box">
+                    <img src={javascript} alt="js" className="skill-logo"/><div className="skill-caption">JavaScript</div>
+                </div>
+                <div className="box">
+                    <img src={react} alt="react" className="skill-logo"/><div className="skill-caption">React</div>
+                </div>
+                <div className="box">
+                    <img src={pandas} alt="pandas" className="skill-logo"/><div className="skill-caption">pandas</div>
+                </div>
+                <div className="box">
+                    <img src={numpy} alt="numpy" className="skill-logo"/><div className="skill-caption">NumPy</div>
+                </div>
+                <div className="box">
+                    <img src={scikitlearn} alt="sklearn" className="skill-logo"/><div className="skill-caption">scikit-learn</div>
+                </div>
+                <div className="box">
+                    <img src={pytorch} alt="pytorch" className="skill-logo"/><div className="skill-caption">PyTorch</div>
+                </div>
+                <div className="box">
+                    <img src={postgres} alt="postgres" className="skill-logo"/><div className="skill-caption">PostgreSQL</div>
+                </div>
+                <div className="box">
+                    <img src={docker} alt="docker" className="skill-logo"/><div className="skill-caption">Docker</div>
+                </div>
+                <div className="box">
+                    <img src={git} alt="git" className="skill-logo"/><div className="skill-caption">Git</div>
+                </div>
+                <div className="box">
+                    <img src={bash} alt="bash" className="skill-logo"/><div className="skill-caption">Bash</div>
                 </div>
             </div>
         </div>

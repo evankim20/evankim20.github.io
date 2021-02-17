@@ -42,13 +42,13 @@ function Experience() {
                 <a href="https://corporate.exxonmobil.com/">
                     <img src={exxonmobil}  alt="exxon" id="icon"/>
                 </a>
-                <ListItem title="ExxonMobil" year="Summer 2019" position="Data Architecture/Analytics Intern" description="Modeled and analyzed internal financial data to optimize revenue management.  Supported a framework to internalize marking data."/>
+                <ListItem title="ExxonMobil" year="Summer 2019" position="Data Architecture/Analytics Intern" description="Modeled and analyzed internal financial data to optimize revenue management.  Contributed to a framework that internalized marking data."/>
                 <ListSkills skills={["Python", "R", "SQL", "Azure", "pandas"]}/>
                 <br />
                 <a href="https://www.fixt.co/">
                     <img src={fixt}  alt="fixt" id="icon"/>
                 </a>
-                <ListItem title="Fixt" year="January 2019" position="Data Science Intern" description="Built machine learning models that produced failed repairs to improve service and optimize revenue.  Also developed a tool that scraped potentially opportunities across various websites."/>
+                <ListItem title="Fixt" year="January 2019" position="Data Science Intern" description="Built machine learning models that produced failed repairs to improve service and optimize revenue.  Also developed a tool that scraped potential opportunities across various websites."/>
                 <ListSkills skills={["Python", "SQL", "pandas", "scikit-learn"]}/>
                 <br />
                 <a href="https://lowellinstruments.com/">

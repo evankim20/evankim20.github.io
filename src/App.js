@@ -1,3 +1,4 @@
+import './reset.css';
 import './App.css';
 import Navbar from './Components/Navbar';
 import About from './Sections/About';
