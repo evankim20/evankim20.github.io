@@ -15,6 +15,7 @@ import postgres from "../Images/skills/postgres.png"
 import git from "../Images/skills/git.png"
 import docker from "../Images/skills/docker.png"
 import bash from "../Images/skills/bash.png"
+import django from "../Images/skills/django.png"
 
 
 
@@ -46,6 +47,9 @@ function Skills() {
                 </div>
                 <div className="box">
                     <img src={react} alt="react" className="skill-logo"/><div className="skill-caption">React</div>
+                </div>
+                <div className="box">
+                    <img src={django} alt="django" className="skill-logo"/><div className="skill-caption">Django</div>
                 </div>
                 <div className="box">
                     <img src={pandas} alt="pandas" className="skill-logo"/><div className="skill-caption">pandas</div>

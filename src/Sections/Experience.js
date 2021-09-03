@@ -17,15 +17,16 @@ function Experience() {
             <div id="section-wrapper">
                 <h1 className="section-heading">Work Experience</h1>
                 <hr className="divider"/>
-                <a href="https://facebook.com">
-                    <img src={fb}  alt="fb" id="icon"/>
-                </a>
-                <ListItem title="Facebook" year="Summer 2021" position="Software Engineering Internship" description="Incoming summer intern"/>
-                <br />
                 <a href="https://www.csail.mit.edu/">
                     <img src={csail}  alt="csail-1" id="icon"/>
                 </a>
-                <ListItem title="MIT Computer Science and AI Laboratory" year="2021 - present" position="Undergraduate Research Assistant" description="Incoming research assistant"/>
+                <ListItem title="MIT Computer Science and AI Laboratory" year="2021 - present" position="M.S. Thesis" description="Utilizing machine learning to detect early onset dementia.  Researching interpretable machine learning to make models easier to understand for clinicians."/>
+                <br />
+                <a href="https://facebook.com">
+                    <img src={fb}  alt="fb" id="icon"/>
+                </a>
+                <ListItem title="Facebook" year="Summer 2021" position="Software Engineering Internship" description="Pushed project to production which changed the photo tag notification on Instagram and started A/B testing.  Also built a new push notification and created a new Django API."/>
+                <ListSkills skills={["Python", "Django"]}/>
                 <br />
                 <a href="https://www.apple.com/">
                     <img src={apple}  alt="apple" id="icon"/>
@@ -59,6 +60,11 @@ function Experience() {
                 <br /><br />
                 <h1 className="section-heading">Teaching Experience</h1>
                 <hr className="divider"/>
+                <a href="https://www.mit.edu/">
+                    <img src={mit}  alt="mit2" id="icon"/>
+                </a>
+                <ListItem title="Massachusetts Institute of Technology" year="Fall 2021" position="Graduate Teaching Assistant" location="Cambridge, MA" description="6.034: Artificial Intelligence"/>
+                <br />
                 <a href="https://www.mit.edu/">
                     <img src={mit}  alt="mit2" id="icon"/>
                 </a>

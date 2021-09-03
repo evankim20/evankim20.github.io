@@ -13,7 +13,7 @@ function Education() {
                 <a href="https://www.mit.edu/">
                     <img src={mit}  alt="Headshot" id="icon"/>
                 </a>
-                <ListItem title="Massachusetts Institute of Technology" year="2021 - 2022" position="Computer Science, M.S. Candidate" location="Cambridge, MA" gpa="N/A" description="Relevant Courses: Machine Learning for Healthcare, Distributed Systems (in progress), Computer Vision (in progress)"/>
+                <ListItem title="Massachusetts Institute of Technology" year="2021 - 2022" position="Computer Science, M.S. Candidate" location="Cambridge, MA" gpa="5.0/5.0" description="Relevant Courses: Machine Learning for Healthcare, Distributed Systems, Database Systems, Computer Networks (in progress)"/>
                 <br></br>
                 <a href="https://www.mit.edu/">
                     <img src={mit}  alt="Headshot" id="icon"/>
